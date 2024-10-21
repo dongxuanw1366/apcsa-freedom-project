@@ -1,5 +1,5 @@
 # APCSA Freedom Project
-by **X**
+by **DongXuan Wei**
 
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for AP Computer Science A is a year-long project all about making anything using technology.
@@ -14,9 +14,9 @@ For my project, I chose to independently study **X** in order to help me make **
 
 ## Implications
 ##### PROS
-* 
+*
 ##### CONS
-* 
+*
 
 
 ## Blog
