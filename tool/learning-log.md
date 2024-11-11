@@ -21,8 +21,13 @@ Game (Root)
 
 
 
-### X/X/XX:
-* Text
+### 11/10/24:
+Today I decided to learn how to create a player/character/sprite in Godot.
+
+To start I first added a new node called `CharacterBody 2D` and this is what I am going to be testing with today. However with just `CharacterBody 2D` won't get me anywhere because it won't do anything if there's no characters. So, I added another node called `AnimatedSprite2D`. Then I can use the inspector bar on the right of the scene to see the properties of the node and change them. Then I added sprite frames from a sprite sheet to `AnimatedSprite2D`. Sprite frames can be added by uploading a spread sheet then I have to set it into grids and click the grids I want for a specific set of animations and then the animation will be added. Now I can press play and there will be an animation playing.
+
+
+
 
 <!--
 * Links you used today (websites, videos, etc)
