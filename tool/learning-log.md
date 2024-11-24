@@ -24,10 +24,13 @@ Game (Root)
 ### 11/10/24:
 Today I decided to learn how to create a player/character/sprite in Godot.
 
-To start I first added a new node called `CharacterBody 2D` and this is what I am going to be testing with today. However with just `CharacterBody 2D` won't get me anywhere because it won't do anything if there's no characters. So, I added another node called `AnimatedSprite2D`. Then I can use the inspector bar on the right of the scene to see the properties of the node and change them. Then I added sprite frames from a sprite sheet to `AnimatedSprite2D`. Sprite frames can be added by uploading a spread sheet then I have to set it into grids and click the grids I want for a specific set of animations and then the animation will be added. Now I can press play and there will be an animation playing.
+To start I first added a new node called `CharacterBody2D` and this is what I am going to be testing with today. However with just `CharacterBody2D` won't get me anywhere because it won't do anything if there's no characters. So, I added another node called `AnimatedSprite2D`. Then I can use the inspector bar on the right of the scene to see the properties of the node and change them. Then I added sprite frames from a sprite sheet to `AnimatedSprite2D`. Sprite frames can be added by uploading a spread sheet then I have to set it into grids and click the grids I want for a specific set of animations and then the animation will be added. Now I can press play and there will be an animation playing.
 
 
+### 11/23/24
+Today I continued off of what I learned last time. Last time I created the idle animation for a character. After finishing the node `AnimatedSprite2D` I realized that there's an error on the `CharacterBody2D` which is saying that the node has no shape so the object can't collide with anything. A `CharacterBody 2D` is a physics node and a physics node needs a defined shape node to work with.
 
+Then I added a `CollisionShape2D` node and went to the inspector and added a circle shape ![example of CollisionShape2D](https://media.discordapp.net/attachments/692388669834788955/1310075490718978068/godot-collisionshape2D.png?ex=6743e661&is=674294e1&hm=e2bdf0680c3b87ceaf1a6e6d99c81432212a588c97a702975f89d42af29cdd25&=&format=webp&quality=lossless&width=687&height=358). The circle shape is basically the hitbox of the character and that will be how the chracter collides with objects. Now I save the player and drag it back to the main game scene.
 
 <!--
 * Links you used today (websites, videos, etc)
