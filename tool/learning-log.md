@@ -32,6 +32,9 @@ Today I continued off of what I learned last time. Last time I created the idle 
 
 Then I added a `CollisionShape2D` node and went to the inspector and added a circle shape ![example of CollisionShape2D](https://media.discordapp.net/attachments/692388669834788955/1310075490718978068/godot-collisionshape2D.png?ex=6743e661&is=674294e1&hm=e2bdf0680c3b87ceaf1a6e6d99c81432212a588c97a702975f89d42af29cdd25&=&format=webp&quality=lossless&width=687&height=358). The circle shape is basically the hitbox of the character and that will be how the chracter collides with objects. Now I save the player and drag it back to the main game scene.
 
+### 12/7/24
+After I made a player in my game, I need to add a camera to control what is being shown. I added a new node called `Camera2D` after adding the node I noticed a large view port around the player and I think it is way too large. So I learned to use the zoom feature in the inspector for `Camera2D`. The default was 1 by 1, so I tried to make it 4 by 4. I realized that as the number goes up the view port gets smaller. Now I can run my game and see that there's a sprite playing an idle animation.
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
