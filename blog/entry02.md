@@ -7,19 +7,19 @@ In Godot you have a main game branch and side branches. For example, I would sav
 
 In Godot, to create anything you need to first add nodes. To start creating a character I have to first add a node called `CharacterBody2D`. After that I need to add a node called `AnimatedSprite2D` or else the character won't be moving. Then I have to pick frames from a spritesheet so the game engine will run a few frames to animate.
 
-![Adding frames from a sprite sheet in Godot](https://media.discordapp.net/attachments/692388669834788955/1317919921275146381/image.png?ex=67607013&is=675f1e93&hm=043132e71c21ba24e823ce43da2d9cf46e18182455fe883be8ec4e6b01b28665&=&format=webp&quality=lossless&width=1415&height=701)
+![Adding frames from a sprite sheet in Godot](../tool/sprite-sheet.png)
 
 For now I only added idle animation because I don't know how to make characters move yet. Now, I can press the play button and see the character move. I can change how fast it moves by increasing the Frame Per Second and I can make it run automatically at the start of the game.
 
 After adding the `AnimatedSprite2D` node I realized that there's an error with the `CharacterBody2D` node because there's no hitbox on the character. Then I added a `CollisionBody2D` node. Basically this acts as a hitbox so that the character can actually touch/interact with objects.
 
-![CollsionBody2D exmaple](https://media.discordapp.net/attachments/692388669834788955/1310075490718978068/godot-collisionshape2D.png?ex=67603ea1&is=675eed21&hm=abf30c8e8dd6e43052a73a235fef5497f297083fec61d349dffa1ec64987adc8&=&format=webp&quality=lossless&width=1343&height=701)
+![CollsionBody2D exmaple](../tool/godot-collisionshape2D.png)
 
 In the image above, the blue circle surrounding the sprite will be the sprite's collision range, basically if you are walking on a map the circle has to touch the ground and if this isn't a thing, the character will just fall through the floor.
 
 Now that the player sprite is complete I can just drag the file into the game scene and now there's a character. However, I can't actually run the game yet because there's no camera, basically the viewport (the screen you will see when you play the game). To do this I need to add a new node called `Camera2D`. After adding the node I noticed a large view port around the player and I think it is way too large. So I learned to use the zoom feature in the inspector for `Camera2D`. The default was 1 by 1, so I tried to make it 4 by 4. I realized that as the number goes up the view port gets smaller. Now I can run my game and see that there's a sprite playing an idle animation. However, the sprite just falls down, out of the camera and disappear because there's no ground for the character to land on (No object to collide with).
 
-![Image of the game, a sprite standing still](https://media.discordapp.net/attachments/692388669834788955/1318005073653137479/image.png?ex=6760bf60&is=675f6de0&hm=78cf9c22cbf3c854596c9ca2f6b3ce30eeab5cf991201e410ab7b320981bc2ed&=&format=webp&quality=lossless&width=1288&height=701)
+![Image of the game, a sprite standing still](../tool/sprite-standing-still.png)
 
 As you can see in the image, the character is basically standing on void, and there's nothing for it to move on.
 
@@ -27,7 +27,7 @@ So my goal for this winter break is to learn how to build a world, using tiles a
 
 Currently, I am on step 2 and 3 of the Engineer Design Process. I am still researching on how to create my game and I am brainstorming possible things/function I can learn/add to my game. During the winter break, I need to plan on what to learn to utilize my time and actually tinker with the Godot game engine/editor and become fluent at using it.
 
-The skills I used during this period of time are **How to Google**, **How to learn** and **Problem Decomposition**. I used how to google to help me find documentations and sources like youtube tutorials for me to learn Godot and I had to make sure those resources will be useful to me and its something I can understand. I used how to learn because I had to learn on my own, there's limited resources for me to utilize to learn Godot and I had to learn Godot on my own. I never used a game engine like Godot before so it is fun to learn it on my own just by following tutorials. I also used problem decomposition to breakdown my project into parts so I know what I should learn first and how I can structure my game step by step. 
+The skills I used during this period of time are **How to Google**, **How to learn** and **Problem Decomposition**. I used how to google to help me find documentations and sources like youtube tutorials for me to learn Godot and I had to make sure those resources will be useful to me and its something I can understand. I used how to learn because I had to learn on my own, there's limited resources for me to utilize to learn Godot and I had to learn Godot on my own. I never used a game engine like Godot before so it is fun to learn it on my own just by following tutorials. I also used problem decomposition to breakdown my project into parts so I know what I should learn first and how I can structure my game step by step.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
