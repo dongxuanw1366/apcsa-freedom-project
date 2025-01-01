@@ -35,6 +35,22 @@ Then I added a `CollisionShape2D` node and went to the inspector and added a cir
 ### 12/7/24
 After I made a player in my game, I need to add a camera to control what is being shown. I added a new node called `Camera2D` after adding the node I noticed a large view port around the player and I think it is way too large. So I learned to use the zoom feature in the inspector for `Camera2D`. The default was 1 by 1, so I tried to make it 4 by 4. I realized that as the number goes up the view port gets smaller. Now I can run my game and see that there's a sprite playing an idle animation.
 
+### 12/31/24
+Today I added a script for player movement in godot and I did it using the base template script that godot provides. When I added the physics and run the game, the character just falls down because there's no ground for it to collide with.
+
+![Adding script in Godot](godot-script.png)
+
+Then I learned to add a new node called `StaticBody2D`. This node is another physics body and it is used for non-moving objects that's why it is called static body. However, this body also needs a `CollisionShape2D` in order to function properly. This time I set the collision shape as a `WorldBoundaryShape2D`. This way the character will have a ground to stand on that extends infinitely in the direction you want.
+
+![WorldBoundaryShape2D example](worldboundary2d.png)
+
+
+Now that my character have a platform to move on I can use my arrow keys to control and my character and move it around.
+
+
+
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
