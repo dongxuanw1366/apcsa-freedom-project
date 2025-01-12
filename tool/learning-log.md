@@ -47,7 +47,18 @@ Then I learned to add a new node called `StaticBody2D`. This node is another phy
 
 Now that my character have a platform to move on I can use my arrow keys to control and my character and move it around.
 
+### 1/12/25
+Today I learned how to build map on Godot. To create a map in 2D I would use tiles and it is similar to sprite sheets. I would use a tile set and just select tiles and put it in grids to make a map.
 
+To do this I added a `TileMap` node and added a tile set.
+![Godot tile map example](godot-tilemap.png)
+
+First I uploaded a tile set image into the `TileSet` section at the bottom of the image and now I have a tile map and I can start painting with it by using the paint tool in Godot.
+
+You use left click to paint and right click to delete.
+![My finished tile map](godot-finished-map.png)
+
+The image is the current basic tile map that I painted.
 
 
 
