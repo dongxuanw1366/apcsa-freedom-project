@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Godot
+## Product: First-person 3D shooter game
 
 ---
 
@@ -9,13 +9,24 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- Learn Godot as I am working every time
+- [ ] Create a platform that has physics (can collide with player) with lighting. (deadline: 2/23/25)
+
+- [ ] Create a player that can move using WASD (deadline: 3/10/25)
+  - [ ] Add a camera that follows the player (deadline: 3/15/25)
+  - [ ] Give the player ability to shoot balls or some kind of projectile that deal damage on collision and disappears after traveling a certain distance (deadline: 4/1/25)
+
+- [ ] Create enemy that don't move or shooting targets for the player (deadline: 4/15/25)
+
+- [ ] Finalize and debug the project (deadline: 4/20/25)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Score board
+- [ ] Enemy that can attack the player
+  - [ ] HP bar
+- [ ] Respawn if you walked off the platform or die.
+  - Give platform boundary maybe
 
 
 <!-- EXAMPLE
