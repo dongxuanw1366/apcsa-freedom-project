@@ -60,6 +60,16 @@ You use left click to paint and right click to delete.
 
 The image is the current basic tile map that I painted.
 
+### 3/1/25
+Today, I started learning about 3D in Godot.
+
+First I learned how to make a platform by using `CSGBox3D` node. In Godot you can edit a csg box and stretch it however you make, so to start off I made a 100 by 100 platform on Godot using csgbox. The csgbox has built in physics and is very easy to use, I can use it to make many shapes and structures because I can strtech it and turn it into whatever I want. There are other shapes too like CSGSphere and CSGCylinder.
+![CSGBox3D example](csgbox3d.png)
+
+I added textures to the box by first creating a new standard material and then moving to the albedo section and uploading an image then the ground starts to look like something that's not just a white base plate.
+
+After that I moved on to create a character in 3D. To make a character in 3D you use the node `CharacterBody3D`. This node is very similar to the `CharacterBody2D` node. The first thing is to attach a `MeshInstance3D` node to the `CharacterBody3D` node and set its mesh to a capsule shape which is similar to a human height. After that I have to add a collision shape to it to make the character collideable. Then I created a `Node3D` and attached a `Camera3D` node to it, then I dragged the node3D to the head of a capsule to create a first person feel. Then I atached a basic movement script that Godot provides and now I have a moving first person character.
+![My Godot Character](godot-character3D.png)
 
 
 <!--
