@@ -72,6 +72,16 @@ After that I moved on to create a character in 3D. To make a character in 3D you
 ![My Godot Character](godot-character3D.png)
 
 
+### 3/8/25
+After learning how to make a character I moved on to learning a bit of map building.
+
+First, I started by creating a `CSGSphere` node as the moon and then making it big, then I went to the geometry section and created a material then I changed it's albedo color. After that I added a `WorldEnvironment` and `DirectionalLight3D` node. For the world environment node I went to its environment and created a new one, then I went to the volumetric fog section to create my environment, in the volumetric fog section I changed the albedo and emission to compliment each other to create a good looking fog. Then I went to the directional light node to create a light blue color to compliment the fog.
+
+![My world after creating the moon](world-environment.png)
+
+
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
