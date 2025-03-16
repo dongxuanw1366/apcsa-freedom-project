@@ -8,11 +8,11 @@ As you can see from the image I added textures to the box by first creating a ne
 
 Then I started researching into how to make a character in 3D. It turned out to be similar to creating a character in 2D. I would use a `CharacterBody3D`, `MeshInstance3D` and `CollisionShape3D`. First, I attached the MeshInstance node to the CharacterBody node, then I set its mesh to a capsule shape which is similar to a human height. After that I have to attach a CollsionShape node to the CharacterBody to make the character collideable with other objects. Then I realized a problem, how would I make the character first person? So I went to look at the nodes that Godot has to offer and I found a `Camera3D` node which acts as the point of view. However, to make it first person you have to attach the camera node to a `Node3D`. Then attach the `Node3D` to the CharacterBody. Then drag `Node3D` up so it acts as a head for my character. Then I attached a basic movement script to the character and now I have a moving character.
 
-![My Godot Character](godot-character3D.png)
+![My Godot Character](../tool/godot-character3D.png)
 
 After I am done with the player I realized that the map is a bit blend and has nothing, so I tried to create an environment. First, I started by creating a `CSGSphere` node as the moon and then making it big so that the shadow can cover the map, then I went to the geometry section and created a material then I changed it's albedo color. After that I added a `WorldEnvironment` and `DirectionalLight3D` node. For the world environment node I went to its environment and created a new one, then I went to the volumetric fog section to create my environment, in the volumetric fog section I changed the albedo and emission to compliment each other to create a good looking fog. Then I went to the directional light node to create a light blue color to compliment the fog. Now I have a foggy environment.
 
-![My world after creating the moon](world-environment.png)
+![My world after creating the moon](../tool/world-environment.png)
 
 After this I went back to my character and tried to add sprint and remove the cursor when I am in game because in a fps game you shouldn't see your cursor. So after looking through Godot documentations for codes and some youtube tutorial I went to coding in the movement script of the character. To create a sprint option is really easy. First I just need to add a key in the godot input map as the sprint key then I create a new variable for sprint speed and change the speed to the sprint speed whenever I press my sprint key.
 
