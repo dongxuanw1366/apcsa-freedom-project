@@ -79,14 +79,17 @@ First, I started by creating a `CSGSphere` node as the moon and then making it b
 
 ![My world after creating the moon](world-environment.png)
 
-3/23/25
+## 3/23/25
 Today I learned how to import 3D models to Godot. The first thing I wanted to import was enemies with animation. After watching a [youtube video](https://www.youtube.com/watch?v=iV710Vm5qm0), I learned how to import from Mixamo a website full of 3D character and animation from Adobe. I just select a character then switch to the animation section and download some animations I like, I made sure to download the file as fbx files so I can import them to blender and put the animations together.
 ![putting animations together in blender](blender-zombie.png)
 
 After I put the animations together I exported the file as a glb file because it is easy to work with in Godot. After I imported the zombie model, I created a new inherited scene and changed it root node to `CharacterBody3D`. Then I created a collision shape of a capsule and put it on to the zombie to act as its hitbox. Then I clicked on the `Skeleton3D` node that came with the import and created a physical skeleton that tries to imitate the model but it wasn't really enough at the end. So I had to create my own collision shapes and put it onto the zombie.
 ![Finished zombie with collision shapes](zombie-model.png)
 
+## 3/30/25
+Today I learned about animation tree which is a way to connect animations from an animation player. First I have to assign an animation player to the animation tree. Then I will make the animation tree an AnimationNodeStateMachine. Then I just need to create nodes and add the run, attack and standup animation on to the state machine, then I add transitions from one animation to another so that way the zombie will start moving. Then I assign a root motion in the hips of the zombie to make sure that the zombie moves only with code.
 
+![Animation Tree in Godot](animation-tree.png)
 
 
 
