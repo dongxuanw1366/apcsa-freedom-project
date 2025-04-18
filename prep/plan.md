@@ -14,7 +14,7 @@
 
 - [ ] Create a player that can move using WASD (deadline: 3/10/25)
   - [ ] Add a camera that follows the player (deadline: 3/15/25)
-  - [ ] Give the player ability to shoot balls or some kind of projectile that deal damage on collision and disappears after traveling a certain distance (deadline: 4/1/25)
+  - [ ] Give the player ability to shoot balls or some kind of projectile that deal damage on collision and disappears after traveling a certain distance (have some kind of physics too) (deadline: 4/1/25)
 
 - [ ] Create enemy that don't move or shooting targets for the player (deadline: 4/15/25)
 
