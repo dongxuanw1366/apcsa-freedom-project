@@ -91,8 +91,6 @@ Today I learned about animation tree which is a way to connect animations from a
 
 ![Animation Tree in Godot](animation-tree.png)
 
-
-
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
