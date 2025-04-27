@@ -8,7 +8,7 @@ For my project, I chose to independently study **X** in order to help me make **
 
 ## Links
 
-[Product]()
+[Freedom Project Preview](https://letmetest.itch.io/apcsa-freedom-project-fps)
 
 [Presentation]()
 
