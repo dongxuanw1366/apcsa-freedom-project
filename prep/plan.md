@@ -22,11 +22,14 @@
 
 #### Beyond MVP
 
-- [ ] Score board
+
 - [ ] Enemy that can attack the player
   - [ ] HP bar
 - [ ] Respawn if you walked off the platform or die.
-  - Give platform boundary maybe
+- [ ] Fix bugs (Unable to attack enemy at close range)
+- [ ] Limit how much enemy can be spawned in at once to reduce lag
+- [ ] Add upgrades (Maybe)
+
 
 
 <!-- EXAMPLE
