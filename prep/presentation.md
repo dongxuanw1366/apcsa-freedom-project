@@ -1,16 +1,16 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Do you ever want to play a fast-paced and immersive shooter game? My game has everything, you start with 2 guns and you just shoot enemies. That's it, you can just use your time on shooting endless waves of enemies.
 
 ## Product
-* 
+* A demo of my project in the browser. People can play my game in the browser and I might play the game as demonstration during the presentation.
 
 ## Process
-* 
+* Code snippets and screen shots. I will show my character and my enemy. The nodes and how I coded the character and enemy to move.
 
 ## Conclusion
-* 
+* Screenshots (my world scene), url to project and a takeaway. What I learned from making a game with a 3D game engine and how I struggled but learned and debugged my code.
 
 <!-- EXAMPLE
 
