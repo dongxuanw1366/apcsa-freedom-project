@@ -1,7 +1,17 @@
 # Entry 6
-##### X/X/XX
+##### 5/31/25
 
-Text
+After I completed my freedom project, I will be presenting in the SEP expo.
+
+Before the SEP Expo, I had to create an [elevator pitch](https://docs.google.com/document/d/1yf1iQNnoqcOZ3UO7aDE0qCSz3LSp4eHCgR9IqkhcTuk/edit?tab=t.0) which is a short speech under 3 minute that explains my whole project to the judges. This is because there are many projects for the judges to look through which means we can't give a long presentation or the judges won't have enough time to look through all the projects. My plan was to show the judges my game by showing them gameplay of it and then I will simply talk about the game by saying that this is a 3D game made with Godot, a game engine used to make 2D and 3D games. Then I will talk about how I use GDScript to control enemy pathfinding, spawning, and scoring. After the Expo, my takeaway is that I need to be less nervous when presenting it and slow down when speaking. I felt like I spoke a bit too fast in front of the judges because I was being nervous. I should also show more of the code and process then talk about some of my future plans because I was talking about how there's no end goal to the game yet which might look bad for my presentation to the judges. I should also act more welcoming for other students visting projects during the Expo and present my project to those students.
+
+Also before the SEP Expo, I had to do an [in-class presentation](https://docs.google.com/presentation/d/1rJ9B6WQYaKFzEJBqwrAG4ETFsqfNC9_T9DmQUejXkIs/edit?slide=id.g357e5a2bbcd_0_7#slide=id.g357e5a2bbcd_0_7) by creating a slideshow of my freedom project. This slideshow will help me prepare for the day of the expo because I will be using the slideshow as well to present it to others in the SEP Expo. The main focuses of my slideshow is to give an overview of the game and a demo. Then I will include my process and code of how I made every aspect of the game (map, enemy, gun, bullets, shooting animation, enemy pathfinding, how to kill enemy). Finally, I will talk about the challenges I had when I created the project and what I learned throughout the whole time of making the freedom project. Some takeaways from this in-class presentation are make more eye contact because I kept looking at the slides more than the audience. This also shows that I need to be more prepared with what I am going to say and remember more things from the slide. Most importantly, I should feel more confident, talk slower, speak louder and explain my code more throughly so my audience can understand what I made and what I did.
+
+Currently, I am on step 7 and 8 of the Engineer Design Process. After I finished the MVP, I would be asking for feedbacks from my classmates by letting them play my game. Then I can improve my game using those feedback, some things I can do is add player HP and death. Now, that I finished my freedom project I would be showing the results (the completed freedom project) in class and in the Expo.
+
+The skills I used during this time was **Communication**, **Growth Mindset** and **Consideration**. I needed to communicate to my friends about my project so I can get feedbacks and improve my project. I also had to talk to many students in class and during the Expo to show them what I created throughout the year. I also had a growth mindset because I was patient with what I am doing and I tried to ask for help from my friend when I was stuck on finalizing the game or creating the slide. I was also being considerate about how I can create an entertaining and educating slideshow that shows what I did throughout the entire year. I also have to consider how I present the code simply so that people can understand what my code does. Overall, I had to consider the audience I am presenting to and how to create a good presentation speech to make sure people can understand what my game is.
+
+
 
 [Previous](entry05.md) | [Next](entry07.md)
 
